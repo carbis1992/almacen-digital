@@ -1,0 +1,200 @@
+*{
+    font-family: 'Montserrat', sans-serif;   
+}
+.banner{
+    text-align: center;
+    background:url("./images/foto7.jpeg");
+    background-size: cover;
+    background-position: initial;
+    background-attachment: fixed;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    height: 100vh;
+    min-width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.nav-item{
+    text-shadow: none; 
+}
+
+.nav-link{
+    color: black;
+    font-weight: 600;
+
+}
+
+.nav-link:hover{
+    color: black;
+    font-size: 18px;
+}
+
+.titulo-web{
+    background-color: black;
+    opacity: 69%;
+    min-width: 55%;
+    position: absolute;
+    top: 58%;
+}
+
+.titulo{
+    margin-left: 45px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-right: 10px;
+}
+
+.btn-servicios{
+    position: absolute;
+    bottom: 40px;
+    left: 45%;
+    
+}
+
+.btn-danger{
+    background-color: darkgray;
+    border-color: darkgray;
+}
+
+.btn-danger:hover{
+    background-color: grey;
+    border-color: grey;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    background-color: transparent;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo:hover{
+    width: 50px;
+    height: 50px;
+}
+
+
+.contenedor{
+    margin: auto;
+    display: table;
+}
+
+.maquina-escribir {
+    float: left;
+    position: relative;
+}
+
+.maquina-escribir span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: black;
+    opacity: 69%;
+    border-left: 1px solid black;
+
+    animation: maquina 3s infinite alternate steps(22);
+}
+
+.titulo-servicios{
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
+
+.imagen-servicio{
+    object-fit: cover;
+    width: 100%;
+    object-position: center;
+    box-shadow: 2px 2px rgba(0,0,0,0.2);
+
+}
+
+.imagen-servicio:hover{
+    width: 105%;
+    box-shadow: 3px 3px rgba(0,0,0,0.3);
+}
+
+.servicio-texto{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.services{
+    margin-top: 15px;
+}
+
+.formulario{
+    width: 50%;
+
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.btn-primary{
+    background-color: #66B0F9;
+    border-color: #66B0F9;
+}
+
+.btn-primary:disabled{
+    background-color: #adb5bd;
+    border-color: #adb5bd;
+}
+
+.footer{
+    font-size: 15px;
+    background-color: beige;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.list-inline{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.footer a {
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+  }
+
+.footer a:hover {
+    color: grey;
+  }
+
+@keyframes maquina{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}  
+
+/* menos de 538px  */
+@media (max-width: 538px) { 
+    .btn-servicios{
+        position: absolute;
+        bottom: 12px;
+        left: 35%;
+    }
+ }
+
+@media (max-width: 976px){
+    .formulario{
+        width: 75%;
+    }
+} 
+
+@media (max-width: 754px){
+    .formulario{
+        width: 100%;
+    }
+}
