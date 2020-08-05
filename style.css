@@ -65,8 +65,7 @@
 .logo{
     width: 40px;
     height: 40px;
-    position: absolute;
-    top: 10px;
+    top: 0px;
     left: 15px;
     background-color: transparent;
     position: fixed;
@@ -109,13 +108,13 @@
     object-fit: cover;
     width: 100%;
     object-position: center;
-    box-shadow: 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
 
 }
 
 .imagen-servicio:hover{
     width: 105%;
-    box-shadow: 3px 3px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px rgba(0,0,0,0.2);
 }
 
 .servicio-texto{
@@ -149,7 +148,7 @@
 
 .footer{
     font-size: 15px;
-    background-color: beige;
+    background-color: rgba(211, 211, 211, 0.5);
     padding: 15px;
     margin-top: 20px;
 }
@@ -160,7 +159,7 @@
 }
 
 .footer a {
-    color: black;
+    color: #000;
     font-size: 20px;
     padding: 15px;
   }
@@ -179,22 +178,67 @@
 }  
 
 /* menos de 538px  */
-@media (max-width: 538px) { 
-    .btn-servicios{
+@media (max-width: 1060px){
+    .logo{
+        width: 40px;
+        height: 40px;
         position: absolute;
-        bottom: 12px;
-        left: 35%;
+        top: 0px;
+        left: 15px;
+        background-color: transparent;
+        z-index: 1;
     }
- }
+}
 
 @media (max-width: 976px){
     .formulario{
         width: 75%;
     }
 } 
-
+        
 @media (max-width: 754px){
     .formulario{
         width: 100%;
+    }
+    
+}
+
+@media (max-width: 900px) { 
+    .btn-servicios{
+        position: absolute;
+        bottom: 40px;
+        left: 40%;
+    }
+ }
+
+@media (max-width: 630px) { 
+    .btn-servicios{
+        position: absolute;
+        bottom: 40px;
+        left: 35%;
+    }
+ }
+
+@media (max-width: 493px){
+    .btn-servicios{
+        position: absolute;
+        bottom: 40px;
+        left: 30%;
+    }
+}
+
+@media (max-width: 402px){
+    .btn-servicios{
+        position: absolute;
+        bottom: 35px;
+        left: 30%;
+    }
+}
+
+@media (max-width: 372px){
+    .btn-servicios{
+        position: absolute;
+        bottom: 20px;
+        left: 25%;
     }
 }
