@@ -227,6 +227,7 @@
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
+        height: 100vh;
 
     }
 
@@ -304,3 +305,4 @@
         left: 25%;
     }
 }
+
