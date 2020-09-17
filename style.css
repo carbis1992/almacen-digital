@@ -222,7 +222,6 @@
 
  @media (max-width: 767px) {
     .banner{
-        /* background-image: url(./images/foto17.jpg); */
         background-position: center center;
         background-attachment: fixed;
         background-size: cover;
@@ -281,7 +280,7 @@
 
 @media (max-width: 493px){
     .banner{
-        max-width: 100%;
+        min-width: 100%;
     }
     .btn-servicios{
         position: absolute;
