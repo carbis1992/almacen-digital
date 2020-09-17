@@ -221,9 +221,17 @@
  }
 
  @media (max-width: 767px) {
-    .banner{
-     background-image: url(./images/foto15.jpg);
+    /* .banner{
+        background-image: url(./images/foto17.jpg);
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
 
+    } */
+
+    .titulo{
+        margin-left: 0;
     }
 } 
 
