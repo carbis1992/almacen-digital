@@ -220,6 +220,15 @@
 
  }
 
+ @media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px){
+        .banner{
+            width: 100%;
+            height: 100vh;
+        }
+    }
+
  @media (max-width: 767px) {
     .banner{
         background-position: center center;
