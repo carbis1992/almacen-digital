@@ -238,13 +238,14 @@
         
     }
     
+}
+
+@media (max-width: 630px) {
     .titulo-web{
         position: absolute;
         top: 50%;
     }
-}
-
-@media (max-width: 630px) { 
+     
     .btn-servicios{
         position: absolute;
         bottom: 40px;
