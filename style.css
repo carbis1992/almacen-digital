@@ -35,7 +35,7 @@
     opacity: 69%;
     min-width: 55%;
     position: absolute;
-    top: 58%;
+    /* top: 58%; */
     margin-bottom: 40px;
 }
 
@@ -225,6 +225,11 @@
         width: 50%;
         border: 1px solid black;
     }
+
+    .titulo-web{
+        position: absolute;
+        top: 58%;
+    }
 }
 
  @media (max-width: 770px){
@@ -271,7 +276,7 @@
 @media (max-width: 372px){
     .btn-servicios{
         position: absolute;
-        bottom: 10px;
+        bottom: 20px;
         left: 25%;
     }
 }
