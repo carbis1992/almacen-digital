@@ -3,10 +3,11 @@
 }
 .banner{
     text-align: center;
-    background:url("./images/giro.png");
-    background-size: cover;
-    background-position: initial;
+    background-image:url("./images/giro.png");
+    background-position: center center;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-shadow: 1px 1px 5px black;
     height: 100vh;
@@ -226,6 +227,10 @@
         border: 1px solid black;
     }
 
+    
+}
+
+@media (min-width: 630px){
     .titulo-web{
         position: absolute;
         top: 58%;
@@ -259,6 +264,9 @@
  }
 
 @media (max-width: 493px){
+    .banner{
+        max-width: 100%;
+    }
     .btn-servicios{
         position: absolute;
         bottom: 30px;
