@@ -3,7 +3,7 @@
 }
 .banner{
     text-align: center;
-    background:url("./images/foto7.jpeg");
+    background:url("./images/giro.png");
     background-size: cover;
     background-position: initial;
     background-attachment: fixed;
@@ -126,16 +126,33 @@
     margin-top: 15px;
 }
 
-.formulario{
-    width: 50%;
-
-}
-
 .form-wrapper{
-    display: flex;
     justify-content: center;
     margin-top: 30px;
+    border: 1px solid black;
+    position: relative;
+    
 }
+
+.form-wrapper a{
+    color: black;
+}
+
+.form-wrapper a:hover{
+    font-weight: bold;
+}
+
+.titulo-contacto{
+    margin-top: 15px;
+}
+
+.contaco{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .btn-primary{
     background-color: #66B0F9;
     border-color: #66B0F9;
@@ -177,7 +194,7 @@
     }
 }  
 
-/* menos de 538px  */
+/* responsive  */
 @media (max-width: 1060px){
     .logo{
         width: 40px;
@@ -188,20 +205,9 @@
         background-color: transparent;
         z-index: 1;
     }
+
 }
 
-@media (max-width: 976px){
-    .formulario{
-        width: 75%;
-    }
-} 
-        
-@media (max-width: 754px){
-    .formulario{
-        width: 100%;
-    }
-    
-}
 
 @media (max-width: 900px) { 
     .btn-servicios{
@@ -209,13 +215,34 @@
         bottom: 40px;
         left: 40%;
     }
+
  }
+
+@media (min-width: 760px){
+    .form-wrapper{
+        left: 25%;
+        width: 50%;
+    }
+}
+
+ @media (max-width: 770px){
+    .form-wrapper{
+        border: none;
+        
+    }
+    
+}
 
 @media (max-width: 630px) { 
     .btn-servicios{
         position: absolute;
         bottom: 40px;
         left: 35%;
+    }
+
+    .imagen-servicio:hover{
+        width: 100%;
+        box-shadow: none;    
     }
  }
 
@@ -230,7 +257,7 @@
 @media (max-width: 402px){
     .btn-servicios{
         position: absolute;
-        bottom: 35px;
+        bottom: 20px;
         left: 30%;
     }
 }
@@ -238,7 +265,7 @@
 @media (max-width: 372px){
     .btn-servicios{
         position: absolute;
-        bottom: 20px;
+        bottom: 10px;
         left: 25%;
     }
 }
