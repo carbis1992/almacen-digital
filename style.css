@@ -127,6 +127,7 @@
 }
 
 .form-wrapper{
+    display: block;
     justify-content: center;
     margin-top: 30px;
     border: 1px solid black;
@@ -222,6 +223,7 @@
     .form-wrapper{
         left: 25%;
         width: 50%;
+        border: 1px solid black;
     }
 }
 
