@@ -50,7 +50,6 @@
     position: absolute;
     bottom: 40px;
     left: 45%;
-    margin-top: 15px;
 }
 
 .btn-danger{
@@ -251,7 +250,7 @@
 @media (max-width: 493px){
     .btn-servicios{
         position: absolute;
-        bottom: 40px;
+        bottom: 30px;
         left: 30%;
     }
 }
