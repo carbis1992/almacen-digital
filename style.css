@@ -233,6 +233,10 @@
         
     }
     
+    .titulo-web{
+        position: absolute;
+        top: 50%;
+    }
 }
 
 @media (max-width: 630px) { 
